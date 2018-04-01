@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: d07d2172e76d3fa429e80a14d2ae3616, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cursorTexture: {fileID: 2800000, guid: b5005ebe5f3ea4e07a3bab1684b6dddd, type: 3}
-  mousePoint: {fileID: 0}
+  mousePoint: {fileID: 1948965714813054, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
 --- !u!1 &1414916158
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,7 +382,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -414,52 +414,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1414916158}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalRotation: {x: -0.91865015, y: 0.079979435, z: -0.24615154, w: -0.29848737}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1001 &1616974896
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4564795153847406, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 5.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564795153847406, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564795153847406, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -21.67
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564795153847406, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564795153847406, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564795153847406, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564795153847406, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564795153847406, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: ee8c142f76c7b4b328e57b51f19101e9, type: 2}
-  m_IsPrefabParent: 0
+  m_LocalEulerAnglesHint: {x: -216, y: -30, z: 0}
